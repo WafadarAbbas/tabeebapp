@@ -99,7 +99,7 @@ const handleSelect = async (option: SpecialityOption | null) => {
   return (
     <div className="p-10 bg-gray-50 min-h-screen">
       <h1 className="text-3xl font-extrabold mb-6 text-center text-blue-700">
-        👨‍⚕️ Doctors List
+        👨‍⚕️ Doctor List
       </h1>
            
  <div className="flex justify-center mb-6">
