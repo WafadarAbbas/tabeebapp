@@ -1,0 +1,49 @@
+.outer-div {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+/* Small devices (≥576px) */
+@media (min-width: 576px) {
+  .outer-div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* Medium devices (≥768px) */
+@media (min-width: 768px) {
+  .outer-div {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+/* Large devices (≥992px) */
+@media (min-width: 992px) {
+  .outer-div {
+    margin-left: 60px;
+    margin-right: 60px;
+     max-width: 990px; 
+  }
+}
+
+/* Extra large devices (≥1200px) */
+@media (min-width: 1200px) {
+  .outer-div {
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 1140px; /* Bootstrap XL ka standard container */
+  }
+}
+
+/* Extra extra large devices (≥1400px) */
+@media (min-width: 1400px) {
+  .outer-div {
+    max-width: 120px; /* Bootstrap XXL container width */
+       margin-left: 30px;
+    margin-right: 30px;
+
+  }
+}
